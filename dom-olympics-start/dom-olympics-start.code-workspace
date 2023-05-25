@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.host": "localhost",
+		"liveServer.settings.port": 1932
+	}
+}

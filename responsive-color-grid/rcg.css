@@ -1,0 +1,103 @@
+@media only screen and (min-width: 750px){
+ p {
+    font-size: 15px;
+  }
+  .nav-bar {
+    display: block;
+  }
+
+    
+}
+
+#top {
+    background-color: #F5C6D6;
+    height: 50px;
+    width: 100%;
+    display: inline-block
+}
+#four {
+    background-color: #EE2E84;
+    height: 50px;
+    width: 100%;
+    
+
+    
+}
+
+.four2{
+    background-color: white;
+    height: 50px;
+    width: 5px;
+    position: relative;
+    bottom: 50px;
+    left: 25%;
+}
+
+.four3{
+    background-color: white;
+    height: 50px;
+    width: 5px;
+    position: relative;
+    bottom: 100px;
+    left: 50%;
+}
+.four4{
+    background-color: white;
+    height: 50px;
+    width: 5px;
+    position: relative;
+    bottom: 150px;
+    left: 75%;
+}
+
+#two {
+    background-color: #85CFD8;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    bottom: 145px;
+    display: inline-block;
+        
+}
+
+.two{
+    background-color: white;
+    height: 50px;
+    width: 5px;
+    position: relative;
+    bottom: 199px;
+    left: 50%
+}
+
+#bottom{
+     background-color:#8DC63F;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    bottom: 199px;
+    display: inline-block;
+    margin-top: 5px;
+
+    
+    
+}
+.bottom{
+   
+    background-color: white;
+    height: 50px;
+    width: 5px;
+    position: relative;
+    bottom: 253px;
+    left: 75%;}
+
+.last{
+     background-color: #E76E34;
+    height: 50px;
+    width: 25%;
+    position: relative;
+    bottom: 302.8px;
+    left: 75%;
+    margin-left: 6px;
+}
+
+

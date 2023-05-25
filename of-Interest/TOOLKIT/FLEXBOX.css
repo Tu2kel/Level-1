@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#flex-container {
+    border: 1px solid black;
+    height: 200px;
+    display: flex;
+    flex-direction: column; /*TOP TO BOTTOM = COLUMN L-R = ROW*/
+    /* flex-direction: row; LEFT TO RIGHT */
+
+    /* #flex-direction: row (default):
+    - justify-content: left to right
+    - align-items: top to bottom */
+    
+/* #flex-direction: column
+    - justify-content: top to bottom
+    - align-items: left to right */
+}
+/*CHECK THIS CENTERING AND SPACING*/
+#flex-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+}
+

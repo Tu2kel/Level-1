@@ -1,0 +1,307 @@
+.france {
+  height: 200px;
+  width: 300px;
+  background: #FFFFFF;
+  position: relative;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+}
+
+.left {
+    height: 60px;
+    width: 30px;
+    /* background-color: #002495; */
+    height: 100%;
+    width: 100px;
+    left: 0;
+    top: 0;
+    background: blue;
+    position: absolute;
+}
+ 
+ 
+.right {
+    height: 60px;
+    width: 30px;
+    background-color: #ED2938;
+    height: 100%;
+    width: 100px;
+    left: 200px;
+    top: 0;
+    background: red;
+    position: absolute;
+}
+.france h2{
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+.germany {
+  height: 200px;
+  width: 300px;
+  background: #DE0002;
+  position: relative;
+  margin: auto;
+  top: 20px;
+  left: 0;
+  right: 0;
+  bottom: 50;
+
+}
+.top{
+    background: #000000;
+    position: relative;
+    /* bottom: 140px; */
+    height: 75px;
+    width: 300px;
+    
+
+}
+.bottom{
+    background-color: #FFCE00;
+    position: relative;
+    /* top: 140px; */
+    height: 75px;
+    width: 300px;
+}
+.germany h2{
+    color: rgb(20, 1, 1);
+    text-align: center;
+    position: relative;
+    top: 75px;
+    z-index: 1;
+    
+}
+.madagascar {
+  height: 200px;
+  width: 300px;
+  background-color: #DE0002;
+  background: White #FFFFFF;
+  position: relative;
+  margin: auto;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 50;
+  
+}
+.mTop {
+    background: Red #FC3E32;
+    position: relative;
+    /* bottom: 140px; */
+    height: 100px;
+    width: 300px;
+}
+.mBottom {
+    background: #007E39;
+    position: relative;
+    /* top: 140px; */
+    height: 100px;
+    width: 300px;
+}
+.mText{
+    color: rgb(15, 1, 1);
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+/* .switzerland {
+    height: 200px;
+  width: 300px;
+  background-color: #DE0002;
+  position: relative;
+  margin: auto;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 50;
+  
+}
+.hor{
+
+    margin-top: 90px;
+  height: 50px;
+  width: 150px;
+  margin-right: 200px;
+  display: inline-block;
+  background: #FFFFFF;
+}
+
+.ver
+{
+    
+  margin-top: 25px;
+  height: 150px;
+  width: 50px;
+  margin-left: 40%;
+  display: inline-block;
+  background-color: #FFFFFF;
+  padding: 50px;
+}
+.white{
+    background-color: #FFFFFF;
+    border: #0a0a0a;
+    margin: auto;
+    position: absolute;
+    
+} */
+
+/* .switzerland {
+  background: #fe0000;
+  display: grid;
+  place-items: center;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.switzerland::before {
+  position: absolute;
+  content: "";
+
+  width: 125px;
+  aspect-ratio: 1;
+  background-color: white;
+
+  clip-path: polygon(
+    0 35%,
+    35% 35%,
+    35% 0%,
+    65% 0%,
+    65% 35%,
+    100% 35%,
+    100% 65%,
+    65% 65%,
+    65% 100%,
+    35% 100%,
+    35% 65%,
+    0 65%
+  );
+} */
+
+.gambia {
+  height: 200px;
+  width: 300px;
+  background: #FFFFFF;
+  position: relative;
+  margin: auto;
+  top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+.gTop{
+    background: #CE1127;
+    position: relative;
+    /* bottom: 140px; */
+    height: 70px;
+    width: 300px;
+    border-bottom: 10px solid #FFFFFF;
+    
+
+}
+.gMid{
+    background-color: #0D1D8B;
+    position: relative;
+    /* top: 140px; */
+    height: 30px;
+    width: 300px;
+}
+.gBottom{
+    background-color: #3B7827;
+    position: relative;
+    /* top: 140px; */
+    height: 70px;
+    width: 300px;
+    border-top: 10px solid #FFFFFF;
+}
+.gambia h2{
+    color: rgb(20, 1, 1);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    
+}
+.japan{
+    height: 200px;
+  width: 300px;
+  background: #FFFFFF;
+  position: relative;
+  margin: auto;
+  top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.circle{
+    background: #BC022C;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    top: 50px;   
+}
+.japan h2{
+    color: rgb(20, 1, 1);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    top: 50px;
+    
+}
+.niger{
+    height: 200px;
+  width: 300px;
+  background: #FFFFFF;
+  position: relative;
+  margin: auto;
+  top: 90px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.nTop{
+    background: #E15307;
+    position: relative;
+    /* bottom: 140px; */
+    height: 75px;
+    width: 300px;
+    border-bottom: 5px solid #FFFFFF;
+
+}
+.nCircle{
+    background: #E15307;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    top: 0px;   
+}
+.nBottom{
+    background-color: #10AF2A;
+    position: relative;
+    /* top: 140px; */
+    height: 75px;
+    width: 300px;
+    border-top: 5px solid #FFFFFF;   
+}
+.niger h2{
+    color: rgb(20, 1, 1);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    bottom: 50px;
+    
+}
+
+
+

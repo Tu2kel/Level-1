@@ -1,0 +1,198 @@
+/*#region SETUP*/
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image:url("hackR.jpg");
+    /* background-image:url("pyramid2.png");  */
+    background-attachment:fixed;
+    background-position:center; 
+    background-size:cover;
+    gap: 2rem;
+    
+    /* background: linear-gradient(to right, #1565C0, #b92b27); */
+    /* overflow: hidden; */
+    
+}
+
+@media only screen and (min-device-width: 320px) and (max-width: 1200px) {
+  span {
+    color: lightblue;
+  }
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(10, 100px);
+    
+
+}/*#endregion SETUP*/
+
+/*#region HEADER*/
+
+#header{animation: glow .8s ease-in-out infinite alternate;
+    font-size: 30px;
+
+    text-decoration: overline underline;
+
+    color: limegreen;
+    font-size: 40px;
+
+    z-index: 5;
+    display: flex;
+    grid-column: 1;
+    grid-row: 1;
+    position: fixed;
+
+}
+
+@keyframes  glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+
+}
+/*#endregion SETUP*/
+
+/*#region inWork THANOS*/
+.imgDiv{
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    grid-column: 1/6;
+    grid-row: 1/11;
+    
+}
+.imgDiv img:nth-child(1){
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform-origin: left;
+
+}
+
+.imgDiv:hover img:nth-child(1) {
+    transition: 6s;
+    transition-delay: 1s;
+    transform: translateX(50px);
+    opacity: 0;
+    filter: blur(40px);
+    /* -webkit-animation: myanim1 7s; */
+    animation: myanim1 7s;
+}
+.imgDiv img:nth-child(2){
+    height: 100%;
+    width: 100%;
+    transform: translateX(400px) scaleX(0);
+    transform-origin: left;
+
+}
+
+.imgDiv:hover img:nth-child(2){
+    position: relative;
+    transition: 8s;
+    transform: translateX(-700px) scaleX(1);
+    opacity: 0;
+    animation: myanim2 5s;
+    mix-blend-mode: color-dodge;
+}
+@keyframes myanim1{
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: .5;
+    }
+    40%{
+        opacity: 0;
+    }
+}
+@keyframes myanim2{
+    0%{
+        opacity: 1;
+    }
+    30%{
+        opacity: .5;
+    }
+    60%{
+        opacity: 0;
+    }
+}
+/*#endregion inWork THANOS*/
+
+/*#region NAV BAR*/
+
+nav{
+    color: red;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+    grid-column: 5 /6 ;
+    grid-row: 2/3;
+    /* position: fixed;  CAN'T GET THIS TO RESPOND WITHIN GRID*/
+    z-index: 5;
+
+}
+
+a{
+    color: red;
+    
+}
+a:hover{
+    color: greenyellow;
+    
+}
+
+.home{
+    
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    grid-column: 5 /6 ;
+    grid-row: 2/3;
+}
+.about{
+    margin-bottom: 10px;
+     display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    grid-column: 5 /6 ;
+    grid-row: 2/3;
+}
+.contact{
+    margin-bottom: 10px;
+     display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    grid-column: 5 /6 ;
+    grid-row: 2/3;
+}
+
+/*#endregion NAV BAR*/
+
+.legit{
+    grid-column: 1;
+    grid-row: 8;
+    z-index: 5;
+    opacity: 0.5;
+    color: aqua;
+}
+
+.final{
+    color: darkred;
+    grid-column: 4;
+    grid-row: 8;
+    font-size: 35px;
+}
+
+em{
+    text-decoration: underline;
+}

@@ -1,0 +1,8 @@
+{
+  "liveServer.settings.CustomBrowser": "chrome",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "terminal.integrated.commandsToSkipShell": [
+    "\"liveServer.settings.CustomBrowser\": chrome,"
+  ]
+}
